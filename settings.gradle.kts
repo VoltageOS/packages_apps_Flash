@@ -13,6 +13,6 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Aperture"
+rootProject.name = "VoltageCamera"
 include(":app")
 include(":lens_launcher")
