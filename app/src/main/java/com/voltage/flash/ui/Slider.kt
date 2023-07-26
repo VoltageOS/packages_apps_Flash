@@ -21,6 +21,7 @@ import com.voltage.flash.R
 import com.voltage.flash.ext.*
 import com.voltage.flash.utils.Rotation
 
+@Suppress("PrivateResource")
 abstract class Slider @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
