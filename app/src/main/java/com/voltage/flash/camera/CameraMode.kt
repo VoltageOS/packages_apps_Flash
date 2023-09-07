@@ -5,8 +5,11 @@
 
 package com.voltage.flash.camera
 
-enum class CameraMode {
-    PHOTO,
-    VIDEO,
-    QR,
+import androidx.annotation.StringRes
+import com.voltage.flash.R
+
+enum class CameraMode(@StringRes val title: Int) {
+    PHOTO(R.string.camera_mode_photo),
+    VIDEO(R.string.camera_mode_video),
+    QR(R.string.camera_mode_qr),
 }
